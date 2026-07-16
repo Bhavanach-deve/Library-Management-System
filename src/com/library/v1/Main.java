@@ -26,6 +26,20 @@ public class Main{
 
     static int count = 0;
 
+    public static void validate(){
+
+        System.out.print("Enter Book ID: ");
+        int id = sc.nextInt();
+        for(int i=0;i<count;i++)
+        {
+            if(bookId[i]==id)
+            {
+                System.out.println("Book ID already exists.");
+                return;
+            }
+        }
+    }
+
     public static void addBook()
     {
         if(count == bookId.length)
@@ -137,6 +151,7 @@ public class Main{
 
             switch (choice) {
                 case 1:
+                    validate();
                     addBook();
                     break;
 

@@ -1,0 +1,58 @@
+package com.library.v2;
+
+public class Book
+{
+    private int bookId;
+
+    private String bookTitle;
+
+    private String bookAuthor;
+
+    private boolean available;
+
+    public Book(int bookId, String bookTitle, String bookAuthor)
+    {
+        this.bookId=bookId;
+        this.bookTitle=bookTitle;
+        this.bookAuthor=bookAuthor;
+        this.available=true;
+    }
+
+    public boolean isAvailable() {
+        return available;
+    }
+
+    public void setAvailable(boolean available) {
+        this.available = available;
+    }
+
+    public int getBookId() {
+        return bookId;
+    }
+
+    public void setBookId(int bookId) {
+        this.bookId = bookId;
+    }
+
+    public String getBookTitle() {
+        return bookTitle;
+    }
+
+    public void setBookTitle(String bookTitle) {
+        this.bookTitle = bookTitle;
+    }
+
+    public String getBookAuthor() {
+        return bookAuthor;
+    }
+
+    public void setBookAuthor(String bookAuthor) {
+        this.bookAuthor = bookAuthor;
+    }
+
+    @Override
+    public String toString() {
+        return "Book ID : "+bookId+"\nTitle : "+bookTitle+"\nAuthor: "+bookAuthor+"\nAvailable: "+available;
+    }
+
+}

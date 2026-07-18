@@ -40,8 +40,16 @@ public class Book
         this.bookAuthor = bookAuthor;
     }
 
+    public boolean isAvailable() {
+        return available;
+    }
+
+    public void setAvailable(boolean available) {
+        this.available = available;
+    }
+
     @Override
     public String toString() {
-        return "Book ID : "+bookId+"\nTitle : "+bookTitle+"\nAuthor: "+bookAuthor;
+        return "Book ID : "+bookId+"\nTitle : "+bookTitle+"\nAuthor: "+bookAuthor+"\nAvailable: "+available;
     }
 }

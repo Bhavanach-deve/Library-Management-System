@@ -10,13 +10,16 @@ Each version introduces new Java concepts while improving the application's desi
 
 ## 📖 Versions
 
-- ✅ Version 1 – Basic Java
-- ✅ Version 2 – Object-Oriented Programming
-- ✅ Version 3 – Collections Framework
-- 🔄 Version 4 – Advanced OOP (Upcoming)
-- 🔄 Version 5 – Exception & File Handling (Upcoming)
-- 🔄 Version 6 – JDBC & MySQL (Upcoming)
-- 🔄 Version 7 – Spring Boot REST API (Upcoming)
+| Version | Concepts | Status |
+|----------|----------|--------|
+| ✅ Version 1 | Java Basics (Arrays, Loops, Methods) | Completed |
+| ✅ Version 2 | Object-Oriented Programming | Completed |
+| ✅ Version 3 | Collections Framework | Completed |
+| ✅ Version 4 | Inheritance, Polymorphism & Abstract Classes | Completed |
+| 🔄 Version 5 | Exception Handling & File Handling | Planned |
+| 🔄 Version 6 | JDBC & MySQL | Planned |
+| 🔄 Version 7 | Login Authentication & Authorization | Planned |
+| 🔄 Version 8 | Spring Boot REST API | Planned |
 
 ---
 
@@ -27,6 +30,8 @@ Each version introduces new Java concepts while improving the application's desi
 - Version 2 Flow Diagram
 - Version 3 Class Diagram
 - Version 3 Flow Diagram
+- Version 4 Class Diagram
+- Version 4 Flow Diagram
 
 ---
 

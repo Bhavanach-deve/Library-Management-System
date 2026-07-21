@@ -33,11 +33,11 @@ src/
 ## 🚀 Project Roadmap
 
 | Version | Description | Status |
-|----------|-------------|--------|
+|----------|-------------|-|
 | V1 | Procedural Programming using Arrays | ✅ Completed |
 | V2 | Object-Oriented Programming | ✅ Completed |
-| V3 | Collections Framework (ArrayList) | ⏳ Planned |
-| V4 | Inheritance & Polymorphism | ⏳ Planned |
+| V3 | Collections Framework (ArrayList) | ✅ Completed |
+| V4 | Inheritance & Polymorphism | ✅ Completed |
 | V5 | Exception Handling & File Handling | ⏳ Planned |
 | V6 | JDBC & MySQL | ⏳ Planned |
 | V7 | Spring Boot REST API | ⏳ Planned |

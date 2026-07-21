@@ -1,7 +1,7 @@
-package com.library.v3;
+package com.library.v4;
 
-public class Book
-{
+public class Book {
+
     private int bookId;
 
     private String bookTitle;
@@ -14,7 +14,7 @@ public class Book
         this.bookId = bookId;
         this.bookTitle = bookTitle;
         this.bookAuthor = bookAuthor;
-        this.available=true;
+        this.available =true;
     }
 
     public int getBookId() {
